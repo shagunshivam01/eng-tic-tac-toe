@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Eng Tic-Tac-Toe Game</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class = "msg-container hide">
+            <p id = "msg"></p>
+            <button id = "new-btn">New Game</button>
+        </div>
+        <main>
+            <h1>Eng Tic Tac Toe Game</h1>
+            <div class = "player-turn">
+                <p id = "turn">Player X's turn</p>
+            </div>
+            <div class = "container">
+                <div class = "game-box">
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    <button class = "g-box"></button>
+                    </div>
+                <div class = "game">
+                    <div class = "big-box">
+                        <button class = "box" name = "1" value = "1"></button>
+                        <button class = "box" name = "1" value = "2"></button>
+                        <button class = "box" name = "1" value = "3"></button>
+                        <button class = "box" name = "1" value = "4"></button>
+                        <button class = "box" name = "1" value = "5"></button>
+                        <button class = "box" name = "1" value = "6"></button>
+                        <button class = "box" name = "1" value = "7"></button>
+                        <button class = "box" name = "1" value = "8"></button>
+                        <button class = "box" name = "1" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "2" value = "1"></button>
+                        <button class = "box" name = "2" value = "2"></button>
+                        <button class = "box" name = "2" value = "3"></button>
+                        <button class = "box" name = "2" value = "4"></button>
+                        <button class = "box" name = "2" value = "5"></button>
+                        <button class = "box" name = "2" value = "6"></button>
+                        <button class = "box" name = "2" value = "7"></button>
+                        <button class = "box" name = "2" value = "8"></button>
+                        <button class = "box" name = "2" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "3" value = "1"></button>
+                        <button class = "box" name = "3" value = "2"></button>
+                        <button class = "box" name = "3" value = "3"></button>
+                        <button class = "box" name = "3" value = "4"></button>
+                        <button class = "box" name = "3" value = "5"></button>
+                        <button class = "box" name = "3" value = "6"></button>
+                        <button class = "box" name = "3" value = "7"></button>
+                        <button class = "box" name = "3" value = "8"></button>
+                        <button class = "box" name = "3" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "4" value = "1"></button>
+                        <button class = "box" name = "4" value = "2"></button>
+                        <button class = "box" name = "4" value = "3"></button>
+                        <button class = "box" name = "4" value = "4"></button>
+                        <button class = "box" name = "4" value = "5"></button>
+                        <button class = "box" name = "4" value = "6"></button>
+                        <button class = "box" name = "4" value = "7"></button>
+                        <button class = "box" name = "4" value = "8"></button>
+                        <button class = "box" name = "4" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "5" value = "1"></button>
+                        <button class = "box" name = "5" value = "2"></button>
+                        <button class = "box" name = "5" value = "3"></button>
+                        <button class = "box" name = "5" value = "4"></button>
+                        <button class = "box" name = "5" value = "5"></button>
+                        <button class = "box" name = "5" value = "6"></button>
+                        <button class = "box" name = "5" value = "7"></button>
+                        <button class = "box" name = "5" value = "8"></button>
+                        <button class = "box" name = "5" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "6" value = "1"></button>
+                        <button class = "box" name = "6" value = "2"></button>
+                        <button class = "box" name = "6" value = "3"></button>
+                        <button class = "box" name = "6" value = "4"></button>
+                        <button class = "box" name = "6" value = "5"></button>
+                        <button class = "box" name = "6" value = "6"></button>
+                        <button class = "box" name = "6" value = "7"></button>
+                        <button class = "box" name = "6" value = "8"></button>
+                        <button class = "box" name = "6" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "7" value = "1"></button>
+                        <button class = "box" name = "7" value = "2"></button>
+                        <button class = "box" name = "7" value = "3"></button>
+                        <button class = "box" name = "7" value = "4"></button>
+                        <button class = "box" name = "7" value = "5"></button>
+                        <button class = "box" name = "7" value = "6"></button>
+                        <button class = "box" name = "7" value = "7"></button>
+                        <button class = "box" name = "7" value = "8"></button>
+                        <button class = "box" name = "7" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "8" value = "1"></button>
+                        <button class = "box" name = "8" value = "2"></button>
+                        <button class = "box" name = "8" value = "3"></button>
+                        <button class = "box" name = "8" value = "4"></button>
+                        <button class = "box" name = "8" value = "5"></button>
+                        <button class = "box" name = "8" value = "6"></button>
+                        <button class = "box" name = "8" value = "7"></button>
+                        <button class = "box" name = "8" value = "8"></button>
+                        <button class = "box" name = "8" value = "9"></button>
+                    </div>
+                    <div class = "big-box">
+                        <button class = "box" name = "9" value = "1"></button>
+                        <button class = "box" name = "9" value = "2"></button>
+                        <button class = "box" name = "9" value = "3"></button>
+                        <button class = "box" name = "9" value = "4"></button>
+                        <button class = "box" name = "9" value = "5"></button>
+                        <button class = "box" name = "9" value = "6"></button>
+                        <button class = "box" name = "9" value = "7"></button>
+                        <button class = "box" name = "9" value = "8"></button>
+                        <button class = "box" name = "9" value = "9"></button>
+                    </div>
+                </div>
+            </div>
+            <button id = "reset-btn">Reset Game</button>
+        </main>
+        <script src = "app.js"></script>
+    </body>
+</html>
