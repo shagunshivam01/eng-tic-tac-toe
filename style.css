@@ -15,17 +15,24 @@ body {
 
 .container {
     height: 75vh;
+    width: 260vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .game-box {
-    height: 18vmin;
-    width: 18vmin;
+    height: 24vmin;
+    width: 22vmin;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1vmin;
+}
+
+#game-display {
+    color: #191917;
+    font-size: 3vmin;
 }
 
 .g-box {
